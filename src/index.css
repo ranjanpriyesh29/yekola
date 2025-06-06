@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --default-font-family:"Inter", sans-serif;
+
+  --color-primary:#A591EF
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: scaleY(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scaleY(1.3);
+    opacity: 1;
+  }
+}
+
+.animate-wave {
+  animation: wave 1.2s infinite ease-in-out;
+  transform-origin: center;
+}
+
+@utility container{
+  margin-inline:auto;
+  padding: 2rem;
+}
+
+@utility animate-wave {
+    animation: wave 1.2s infinite ease-in-out;
+  transform-origin: center;
+}
