@@ -3,6 +3,7 @@ import { FiEdit } from "react-icons/fi";
 
 import AnimatedWave from "../assets/animated-wave.svg";
 import ProfilePic from "../assets/profile-pic2.jpg";
+import WithdrawCard from "./WithdrawCard";
 
 export function ProfileCard() {
   return (
@@ -51,43 +52,7 @@ export function ProfileCard() {
         <p className="text-sm text-gray-500 text-center">
           I'm a Lingala Instructor
         </p>
-        {/* <div className="flex flex-col gap-3">
-          <h1 className="text-sm font-semibold">Speaks</h1>
-          <ul className="flex gap-2">
-            <li className="w-8 h-8 rounded-full overflow-hidden border">
-              <img
-                src="https://flagcdn.com/64x48/sn.png"
-                alt="SN"
-                className="w-full h-full object-cover rounded-full p-[1.5px]"
-                title="Senegal"
-              />
-            </li>
-            <li className="w-8 h-8 rounded-full overflow-hidden border">
-              <img
-                src="https://flagcdn.com/64x48/tz.png"
-                alt="TZ"
-                className="w-full h-full object-cover rounded-full p-[1.5px]"
-                title="Tanzania, United Republic of"
-              />
-            </li>
-          </ul>
-        </div>
-        <div className="flex flex-col gap-3">
-          <h1 className="text-sm font-semibold">Teaching</h1>
-          <ul className="flex gap-2">
-            <li className="w-8 h-8 rounded-full overflow-hidden border">
-              <img
-                src="https://flagcdn.com/64x48/sn.png"
-                alt="SN"
-                className="w-full h-full object-cover rounded-full p-[1.5px]"
-                title="Senegal"
-              />
-            </li>
-          </ul>
-        </div> */}
-
         <div className="mt-4 space-y-3">
-          {/* Speaks Section */}
           <div className="flex items-start gap-3">
             <h2 className="text-sm font-semibold min-w-[60px]">Speaks</h2>
             <div className="flex gap-2">
@@ -109,8 +74,6 @@ export function ProfileCard() {
               </div>
             </div>
           </div>
-
-          {/* Teaching Section */}
           <div className="flex items-start gap-3">
             <h2 className="text-sm font-semibold min-w-[60px]">Teaching</h2>
             <div className="flex gap-2">

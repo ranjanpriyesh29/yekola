@@ -5,7 +5,7 @@ const UpcomingClass = () => {
   const upcomingClasses = [
     {
       id: 1,
-      title: "Advanced React Patterns",
+      title: "Lingala Intermidiate",
       instructor: "Alex Johnson",
       date: "Tomorrow, 10:00 AM",
       students: 24,
@@ -14,7 +14,7 @@ const UpcomingClass = () => {
     },
     {
       id: 2,
-      title: "Node.js Microservices",
+      title: "Lingala Intermidiate",
       instructor: "Sarah Williams",
       date: "Jun 15, 2:00 PM",
       students: 18,
@@ -23,7 +23,7 @@ const UpcomingClass = () => {
     },
     {
       id: 3,
-      title: "UI/UX Design Principles",
+      title: "Lingala Intermidiate",
       instructor: "Michael Chen",
       date: "Jun 17, 11:00 AM",
       students: 32,
@@ -32,7 +32,7 @@ const UpcomingClass = () => {
     },
     {
       id: 4,
-      title: "Data Visualization",
+      title: "Lingala Intermidiate",
       instructor: "Emma Davis",
       date: "Jun 20, 3:30 PM",
       students: 15,
@@ -41,7 +41,7 @@ const UpcomingClass = () => {
     },
     {
       id: 5,
-      title: "Cloud Infrastructure",
+      title: "Lingala Intermidiate",
       instructor: "David Kim",
       date: "Jun 22, 9:00 AM",
       students: 21,

@@ -1,17 +1,12 @@
-
+import { FaDollarSign } from "react-icons/fa";
+import { GiEmptyHourglass } from "react-icons/gi";
 import DashboardCard from "./DashboardCard";
-import {
-  FaDollarSign,
-  FaMoneyCheckAlt,
-  FaChalkboardTeacher,
-  FaUserGraduate,
-} from "react-icons/fa";
 
-const DashboardCardGrid = () => {
+const EarningGrid = () => {
   const cards = [
     {
-      title: "Total Earning",
-      value: "$5,6500 K",
+      title: "Weeks's earn",
+      value: "$1.597",
       icon: <FaDollarSign size={20} />,
       color: {
         bg: "bg-blue-100",
@@ -20,9 +15,9 @@ const DashboardCardGrid = () => {
       },
     },
     {
-      title: "Payouts",
-      value: "$9,6419 K",
-      icon: <FaMoneyCheckAlt size={20} />,
+      title: "Months's Earn",
+      value: "$2.134 ",
+      icon: <FaDollarSign size={20} />,
       color: {
         bg: "bg-green-100",
         text: "text-green-600",
@@ -30,9 +25,9 @@ const DashboardCardGrid = () => {
       },
     },
     {
-      title: "Classes",
-      value: "10",
-      icon: <FaChalkboardTeacher size={20} />,
+      title: "Year Earn",
+      value: "12.134",
+      icon: <FaDollarSign size={20} />,
       color: {
         bg: "bg-amber-100",
         text: "text-amber-600",
@@ -40,9 +35,9 @@ const DashboardCardGrid = () => {
       },
     },
     {
-      title: "Students",
-      value: "24",
-      icon: <FaUserGraduate size={20} />,
+      title: "Hours",
+      value: "12.00",
+      icon: <GiEmptyHourglass size={20} />,
       color: {
         bg: "bg-purple-100",
         text: "text-purple-600",
@@ -66,4 +61,4 @@ const DashboardCardGrid = () => {
   );
 };
 
-export default DashboardCardGrid;
+export default EarningGrid;
