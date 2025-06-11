@@ -1,5 +1,7 @@
+import HeaderCalender from "../components/Calendar/HeaderCalender";
+
 const Classes = () => {
-  return <div>Classes</div>;
+  return <HeaderCalender />;
 };
 
 export default Classes;
